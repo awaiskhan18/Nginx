@@ -1,0 +1,22 @@
+Creation of Ubuntu OS machine
+
+Install git 
+
+Updating softwares 
+  sudo apt update
+  sudo apt upgrade    
+  
+Install Nginx
+  sudo apt install nginx
+  
+Nginx Commands
+  sudo  systemctl enable nginx
+  sudo  systemctl stop nginx
+  sudo  systemctl start nginx
+  sudo  systemctl restart nginx
+  
+Create ssh key
+  Cd ./.ssh
+  ssh-keygen -t rsa -C "example@gmail.com"
+  Create deployment script
+  Make script executable: chmod +rwx file
